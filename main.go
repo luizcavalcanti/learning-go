@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, basic structure.")
+	fmt.Println("Let's call all examples...")
+	print_functions()
 }
