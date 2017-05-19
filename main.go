@@ -7,4 +7,5 @@ func main() {
 	print_types()
 	print_functions()
 	print_printing()
+	printControls()
 }
