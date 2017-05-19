@@ -19,6 +19,7 @@ var (
 	Question bool = false
 	Quote string = "Testing strings"
 	MaxInt uint64 = 1<<64 - 1
+	i uint32 = uint32(MaxInt)
 	z complex128 = -5 + 21i
 )
 
@@ -27,5 +28,6 @@ func print_types() {
 	fmt.Printf("Type: %T Value: %v\n", Question, Question)
 	fmt.Printf("Type: %T Value: %v\n", Quote, Quote)
 	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)
+	fmt.Printf("Type: %T Value: %v\n", i, i)
 	fmt.Printf("Type: %T Value: %v\n", z, z)
 }
