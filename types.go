@@ -15,6 +15,8 @@ float32 float64
 complex64 complex128
 */
 
+const myConstant string = "It should never change"
+
 var (
 	Question bool = false
 	Quote string = "Testing strings"
@@ -25,6 +27,7 @@ var (
 
 func print_types() {
 	fmt.Println("\nRun types.go example:")
+	fmt.Printf("Type: %T Value: %v\n", myConstant, myConstant)
 	fmt.Printf("Type: %T Value: %v\n", Question, Question)
 	fmt.Printf("Type: %T Value: %v\n", Quote, Quote)
 	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)
